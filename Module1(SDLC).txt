@@ -1,0 +1,219 @@
+(1) What is software?
+
+Software refers to a collection of instructions, programs, and data that are designed to operate and control computer systems. It is a non-tangible component of a computer system that enables the hardware to perform specific tasks and functions.
+
+Software can be classified into two main categories: system software and application software.
+
+1:- System software: This type of software is responsible for managing and controlling the computer hardware and providing a platform for running applications. It includes operating      systems, device drivers, utilities, and other low-level programs. The operating system, such as Windows, macOS, or Linux, is a crucial system software that manages computer resources, provides an interface for users to interact with the computer, and ensures the proper execution of applications.
+
+2:- Application software: Application software is designed to perform specific tasks or provide solutions for users. It includes programs like word processors, web browsers, spreadsheets, graphic design tools, video players, and countless other applications. Application software is built on top of the system software and utilizes its resources to accomplish various user-oriented functions.
+
+Software is created through a process called software development, which involves designing, coding, testing, and maintaining programs. Programmers and software developers use programming languages like Java, C++, Python, and others to write the instructions that make up the software. These instructions are then compiled or interpreted by the computer's hardware and operating system to execute the desired tasks.
+
+Software plays a critical role in almost every aspect of modern life. It powers computers, smartphones, tablets, embedded systems, and a wide range of electronic devices. It enables users to perform tasks, access information, communicate, entertain, and automate processes. Software also allows businesses to streamline operations, manage data, and develop innovative solutions to complex problems.
+
+Overall, software is a fundamental component of the digital world, providing the intelligence and functionality that makes computers and devices useful and versatile.
+
+
+
+
+(2) What is software engineering?
+
+1:- Software engineering is a technique through which we can developed or created software for computer systems and only other electronic device.
+
+2:- in other words, software engineering is a process  in which user needs are analyzed and software is designed based on there needs.  
+
+3:- in software engineering the development of software using well deline scientilic principle, method and procedures.
+
+4:- Software engineers build these software and application by using designing and programming language.
+
+
+
+(3) Explain types of software.
+	
+
+(1) System Software:
+
+System software is a collection of programs that manage and control the computer hardware and provide a platform for running other software applications. This includes the operating system, device drivers, firmware, and utility software.
+
+
+(2) Application Software: 
+
+Application software refers to programs designed to perform specific tasks or solve specific problems for end-users. These include productivity software (word processors, spreadsheets, presentation tools), multimedia software (image editors, video players), communication software (email clients, web browsers), and more.
+
+(3) Programming Software: 
+
+Programming software assists developers in writing, testing, and debugging software code. Integrated Development Environments (IDEs), text editors, compilers, and debuggers are examples of programming software.
+
+(4) Middleware: 
+
+Middleware software acts as an intermediary between different applications or systems, enabling communication and integration. It includes message-oriented middleware, object request brokers, database middleware, and integration middleware.
+
+(5)Driver Software:
+
+Driver software also known as device drivers or simply drivers, refers to specialized software that facilitates communication between an operating system and hardware devices. It serves as a bridge between the hardware and the operating system, allowing them to interact and work together effectively.
+
+When a hardware device is connected to a computer, the operating system needs to recognize and understand the device's specifications, capabilities, and protocols to utilize it properly. Driver software provides the necessary instructions and protocols for the operating system to communicate with and control the hardware device.
+
+
+
+
+
+
+(4)What is SDLC? Explain each phase of SDLC
+
+SDLC stands for Software Development Life Cycle. It is a systematic process followed by software development teams to design, develop, test, and maintain software applications. The SDLC consists of several distinct phases, each with its specific activities and goals. Here are the typical phases of SDLC:
+
+--> Requirements Gathering:- 
+
+In this phase, the software development team interacts with stakeholders to understand their requirements and expectations from the software. It involves                     gathering information about the desired features, functionalities, and constraints of the software.
+
+
+--> Analysis and Planning:- 
+
+Once the requirements are collected, the team analyzes them to identify potential risks, challenges, and project scope. They assess the feasibility of the project, estimate resources, create a development plan, and define the project schedule.
+
+
+--> Design:- 
+
+In the design phase, the software architecture and system specifications are planned. The team creates a high-level design that defines the overall structure of the software, including modules, data flow, and interfaces. This phase also involves creating a detailed low-level design that outlines the internal workings of each module.
+
+
+--> Coding:- 
+
+in the context of software development, refers to the process of writing instructions in a programming language to create software applications. It involves translating the logical design and requirements of a software system into a form that can be executed by a computer.
+Developers use programming languages such as Python, Java, C++, JavaScript, etc., to write the code. Each language has its syntax, rules, and libraries that enable developers to implement various functionalities.
+
+
+--> Testing:-
+
+ Testing is a crucial phase in the software development life cycle (SDLC) that aims to evaluate the quality, functionality, and performance of a software system. It involves executing the software under controlled conditions to identify defects, errors, or deviations from the expected behavior. The primary goal of testing is to ensure that the software meets the specified requirements and functions as intended.
+
+--> Maintenance:-
+
+The maintenance phase involves the ongoing support and enhancement of the software after its deployment. It includes addressing user feedback, bug fixing, implementing updates and patches, and adding new features or functionalities as required. Maintenance ensures the long-term usability, reliability, and adaptability of the software.
+
+
+
+
+
+
+[4]  What is DFD? Create a DFD diagram on Flipkart.
+
+DFD stands for Data Flow Diagram, which is a graphical representation of how data flows within a system. It is commonly used in software engineering and systems analysis to model the processes, data stores, and external entities involved in a system.
+
+Creating a DFD diagram for a complex system like Flipkart would require a detailed understanding of its internal processes, data flows, and entities. As an AI text-based model, I cannot directly create graphical diagrams. However, I can provide you with a textual description of a high-level DFD diagram for Flipkart. Please note that this will be a simplified representation, and the actual system may have more components and interactions.
+
+
+---> Create a DFD diagram on Flipkart
+
+
+                                                                                              Ship 
+                                                                                           The product----> Notify customer  
+                                                                                                            about tracking 
+    Start                      ---> Promise Customer                                           |               Detail
+      |                        |    For Order Processing---Yes----> Verify whether Product     |                   
+ customer Places Order        Yes                                 available in inventory ---- Yes                  ^
+      |                        |                                          |                                        |
+   Is customer Verified---------                                          |                                        |
+      |                                                                   |                                        |
+     No                                                             No ----                                        |
+      |                                                             |                                              |
+  Reject Order                                                      |                                              |
+                                                            Notify Customer                                        |
+                                                            and offer him any                                    Deliver
+                                                             replacement              Feedback from<---Yes---- to customer
+                                                                                       customer                    |
+                                                                                                                   NO
+                                                                                                                   |
+                                                                                                                   |
+                                                                                                               Return product
+                                                                                                                to inventory
+                                                                        
+
+
+
+
+
+
+[5] What is Flow chart? Create a flowchart to make addition of two numbers.
+
+
+A flowchart is a graphical representation of a process or algorithm that uses different shapes and arrows to depict the steps involved. It is commonly used to visualize and communicate the steps and decision points in a process.
+
+
+Start
+  |
+Input first number
+  |
+Input second number
+  |
+Addition:
+     |
+   Display result
+     |
+    End	
+
+
+In the flowchart above, the process starts with the "Start" symbol. Then, it moves to the "Input first number" symbol, where the user is prompted to input the first number. After that, it moves to the "Input second number" symbol, where the user is prompted to input the second number.
+
+Next, the flowchart reaches the "Addition" symbol, where the two numbers are added together. The result of the addition is then displayed using the "Display result" symbol.
+
+Finally, the flowchart reaches the "End" symbol, indicating the end of the process.
+
+
+
+
+
+
+[6]What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+
+A use case diagram is a visual representation of the functional requirements of a system, showing the interactions between actors (users or external systems) and the system itself. It helps to define the system's behavior from the user's perspective.
+
+Here's an example of a use case diagram for bill payment on Paytm:
+
+                    User
+                     |
+             +-------|-------+                     
+             |               |
+       Make Payment    View Transaction
+             |               |
+             +---------------+
+
+
+In the use case diagram above, the primary actor is the "User." The two main use cases identified for the bill payment process on Paytm are "Make Payment" and "View Transaction."
+
+Make Payment: This use case represents the process of the user making a bill payment on Paytm. It involves the following steps:
+
+User selects the "Make Payment" option.
+User provides the necessary details, such as biller information (e.g., company name, account number), payment amount, and payment method.
+Paytm processes the payment and notifies the user about the payment status.
+View Transaction: This use case allows the user to view their transaction history on Paytm. It includes the following steps:
+
+User selects the "View Transaction" option.
+Paytm retrieves and displays the user's transaction history, including bill payments made.
+User can view the details of a specific transaction, such as the payment amount, biller information, and payment date.
+These two use cases represent the main functionalities related to bill payment on Paytm from the user's perspective. Additional use cases, such as managing saved biller information or receiving payment notifications, could be added depending on the specific requirements of the of the system.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
